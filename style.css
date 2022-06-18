@@ -1,0 +1,127 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500&display=swap');
+
+:root{
+    --cor1: #127369;
+    --cor2: #10403B;
+    --cor3: #8AA6A3;
+    --cor4: #4C5958;
+    --cor5: #BFBFBF;
+}
+*{
+    margin: 0px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+
+/* Primeira página*/
+#inicio{
+    background-image: linear-gradient(to right, var(--cor3), var(--cor1) );
+    
+    
+}
+
+#resposta{
+    display: none;
+}
+
+#botões{
+    max-width: 900px;
+    margin: auto;
+    margin-top: 10vh;
+    margin-bottom: 30vh;
+    text-align: center;
+}
+#título1{
+    padding: 50px;
+    max-width: 500px;
+    margin: auto;
+    color: white;
+    text-align: center;
+    font-size: 2em;
+}
+#parag1, #parag2{
+    padding: 50px;
+    color: white;
+    line-height: 30px;
+}
+ button{
+    width: 200px;
+    height: 40px;
+    border: none;
+    margin: 20px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.476);
+}
+footer{
+    background-color: #4C5958;
+    text-align: center;
+}
+.linkpages :hover{
+    background-color: #10403B;
+    color: white;
+    transition: 0.5s;   
+}
+#foto{
+    background-image: url('img.600.jpg');
+    height: 300px;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+}
+
+/*outras páginas*/
+
+article{
+    margin: auto;
+    padding: 50px;
+    max-width: 500px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.416);
+    border-radius: 20px;
+    background-color: white;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+input{
+    text-align: center;
+    max-width: 200px;
+    font-size: 1.5em;
+}
+legend{
+    margin-top: 50px;
+}
+.pages{
+    background-color: #BFBFBF;
+}
+.calc{
+    margin: auto;
+    text-align: center;
+    background-color: #127369;
+    color: white;
+    margin-top: 50px;
+    
+}
+aside{
+    margin: auto;
+    text-align: center;
+    margin-bottom: 50px;
+}
+#valorPago, #totaldeJuros, #parcelasMensais{
+    background-color: #12736996;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+h2{
+    color: #4C5958;
+}
+.title{
+    background-color: #10403bae;
+    text-align: center;
+    background-attachment: fixed;
+
+}
+.title > h1{
+    color: white;
+}
+

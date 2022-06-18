@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calcular juros</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="pages">
+    <header class="title">
+    <h1>Calculadora de juros</h1>
+    </header>
+    <main>
+        
+        <article>
+            <h2>Insira os dados da sua aplicação</h2>
+           <legend id="legenda">Valor da aplicação R$:</legend><input type="number" name="Valor do imóvel" id="ValorImóvel"> 
+
+           <legend>Tempo em anos: </legend><input type="number" name="Tempo" id="tempo"> 
+
+           <legend>Taxa de juros a.a (não precisa inserir %):</legend><input type="number" name="juros" id="juros"> <br>
+
+           <a href="#resposta">
+               <aside><button onclick="calcular()" class="calc">Calcular</button></aside>
+           </a>
+
+           <div id="resposta">
+              <h2>Montante a ser recebido:
+                  <p id = valorPago></p>
+              </h2>
+              <h2>Total de juros a receber
+                  <p id = totaldeJuros></p>
+              </h2>
+              <h2>Total de parcelas mensais a receber:
+                  <p id="parcelasMensais"></p>
+              </h2>
+           </div>
+
+        </article>
+    </main>
+    <footer>&copy Site desenvolvido por Carlos Neves</footer>
+    <script src="script.js"></script>
+</body>
+</html>
